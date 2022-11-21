@@ -14,23 +14,41 @@
     url('iconfont.svg?t=1537976418058#iconfont') format('svg'); /* iOS 4.1- */
   }
   
-  .icon-prev:before { content: "\f0069"; }
+  .icon-prev:before {
+    content:url('/img/page-first.png');
+  }
   
-  .icon-next:before { content: "\f006a"; }
+  .icon-next:before {
+    content:url('/img/page-last.png');
+  }
   
-  .icon-play:before { content: "\e66a"; }
+  .icon-play:before {
+     content:url('/img/play-circle-filled.png');
+  }
   
-  .icon-pause:before { content: "\e76a"; }
+  .icon-pause:before {
+    content:url('/img/pause-circle-filled.png');
+  }
   
-  .icon-random:before { content: "\e622"; }
+  .icon-random:before {
+    content:url('/img/suijibofang.png');
+  }
   
-  .icon-muted:before { content: "\e61e"; }
+  .icon-muted:before {
+    content:url('/img/shengyinjingyin.png');
+  }
   
-  .icon-volume:before { content: "\e87a"; }
+  .icon-volume:before {
+    content:url('/img/sound.png');
+  }
   
-  .icon-loop:before { content: "\e66c"; }
+  .icon-loop:before {
+    content:url('/img/xunhuan.png');
+  }
   
-  .icon-single:before { content: "\e66d"; }
+  .icon-single:before {
+    content:url('/img/danquxunhuan.png');
+  }
   
   
   /* 播放器位置 */
