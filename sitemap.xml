@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/posts/7fd48667.html</loc>
+    <loc>http://example.com/posts/d98ef1d2.html</loc>
     
     <lastmod>2022-11-18</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/posts/d98ef1d2.html</loc>
+    <loc>http://example.com/posts/7fd48667.html</loc>
     
     <lastmod>2022-11-18</lastmod>
     
@@ -119,21 +119,14 @@
 
   
   <url>
-    <loc>http://example.com/tags/Demo/</loc>
-    <lastmod>2022-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Java-framework/</loc>
-    <lastmod>2022-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/Leetcode/</loc>
+    <lastmod>2022-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/Demo/</loc>
     <lastmod>2022-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -146,21 +139,14 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>http://example.com/tags/Java-framework/</loc>
+    <lastmod>2022-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
-  
-  <url>
-    <loc>http://example.com/categories/Demo/</loc>
-    <lastmod>2022-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/categories/Java-framework/</loc>
-    <lastmod>2022-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>http://example.com/categories/Leetcode/</loc>
@@ -170,7 +156,21 @@
   </url>
   
   <url>
+    <loc>http://example.com/categories/Demo/</loc>
+    <lastmod>2022-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/categories/notes/</loc>
+    <lastmod>2022-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Java-framework/</loc>
     <lastmod>2022-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
