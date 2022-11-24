@@ -83,9 +83,10 @@
 
 @font-face {
   /* 为载入的字体取名字(随意) */
-  font-family: 'YSHST';	
-  /* 字体文件地址(相对或者绝对路径都可以) */
-  src: url(/font/HYTangMeiRen55W.woff2);
+  /* font-family: 'YSHST';	 */
+  font-family:HarmonyOS_Sans_SC_Medium;font-style: normal;font-display: swap;
+  /* 字体文件地址(相对或者绝对路径都可以) */ 
+  src: url('https://cdn.jsdelivr.net/gh/irozhi/HarmonyOS-Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Medium.woff2') format('woff2');
   /* 定义加粗样式(加粗多少) */
   font-weight: normal;
   /* 定义字体样式(斜体/非斜体) */
@@ -245,4 +246,28 @@ i:hover {
 .loading-img {
   background: url("/img/紫罗兰加载.png") no-repeat center center;
   background-size: cover;
+}
+
+.iconfont{
+  font-family: 'iconfont' !important;
+  font-size: 4em;
+  /* 可以定义图标大小 */
+  font-style:normal;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/*时间轴生肖 icon */
+svg.icon{
+  /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突*/
+  width: 1em;
+  height: 1em;
+  /* width和height定义图标的默认宽度和高度*/
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.icon-zhongbiao::before{
+  color: #f7c768;
 }
