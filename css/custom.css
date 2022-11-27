@@ -59,13 +59,13 @@
     font-size: 1.1em;
   }
   .bangumi-info-item {
-    border-right: 1px solid #f2b94b;
+    border-right: 1px solid #c785b2;
   }
   .bangumi-info-item span {
-    color: #f2b94b;
+    color: #c785b2;
   }
   .bangumi-info-item em {
-    color: #f2b94b;
+    color: #c785b2;
   }
 
 /* 页脚与头图透明 */
@@ -137,6 +137,8 @@
   text-shadow: 0 0 2px var(rgb(179, 71, 241)) !important;
 }
 
+
+
 /* 手机端适配 */
 [data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {
   text-shadow: 0 0 2px var(rgb(179, 71, 241)) !important;
@@ -144,12 +146,13 @@
 
 /* 侧边栏个人信息卡片动态渐变色 */
 #aside-content > .card-widget.card-info {
-  background: linear-gradient(
+  background: 
+  linear-gradient(
     -45deg,
     #e8d8b9,
     #eccec5,
     #a3e9eb,
-    #bdbdf0,
+    #cf96bd,
     #eec1ea
   );
   box-shadow: 0 0 5px rgb(66, 68, 68);
@@ -372,3 +375,4 @@ div#archive {
 .menus_items .menus_item:nth-child(2) .menus_item_child {
   left: -125px;
 }
+
