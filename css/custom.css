@@ -1,12 +1,22 @@
 :root {
   /* 白天模式带透明度的背景色 */
-  --trans-light: rgba(239, 220, 233, 0.88);
+  --trans-light: rgba(235, 246, 247, 0.88);
   /* 夜间模式带透明度的背景色 */
   --trans-dark: rgba(25, 25, 25, 0.88);
   /* 边框样式 */
-  --border-style: 0.1px solid rgb(183, 98, 156); 
+  --border-style: 0.1px solid var(--yimoorua-bordercolor); 
   /* 背景过滤器 */
   --backdrop-filter: blur(5px) saturate(150%);
+}
+
+[data-theme="dark"]{
+  --yimoorua-bordercolor: #fffffc;
+  --yimoorua-bongumi: #a6e3ff;
+}
+
+[data-theme="light"] {
+  --yimoorua-bordercolor: #dcdddd;
+  --yimoorua-bongumi:#00b0ff;
 }
 
 /* 音乐播放器 */
@@ -33,17 +43,17 @@
 
   /* bilibli番剧插件 */
 #article-container .bangumi-tab.bangumi-active {
-    background: var(--anzhiyu-theme);
-    color: var(--anzhiyu-ahoverbg);
+    background: var(--yimoorua-bongumi);
+    color: white;
     border-radius: 10px;
   }
   a.bangumi-tab:hover {
     text-decoration: none !important;
   }
   .bangumi-button:hover {
-    background: var(--anzhiyu-theme) !important;
+    background: var(--yimoorua-bongumi) !important;
     border-radius: 10px !important;
-    color: var(--anzhiyu-ahoverbg) !important;
+    color: white !important;
   }
   a.bangumi-button.bangumi-nextpage:hover {
     text-decoration: none !important;
@@ -59,13 +69,13 @@
     font-size: 1.1em;
   }
   .bangumi-info-item {
-    border-right: 1px solid #c785b2;
+    border-right: 1px solid var(--yimoorua-bongumi);
   }
   .bangumi-info-item span {
-    color: #c785b2;
+    color: var(--yimoorua-bongumi);
   }
   .bangumi-info-item em {
-    color: #c785b2;
+    color: var(--yimoorua-bongumi);
   }
 
 /* 页脚与头图透明 */
