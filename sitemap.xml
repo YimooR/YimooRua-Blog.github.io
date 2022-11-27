@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://www.yimoorua.top/posts/df58b0a0.html</loc>
+    <loc>https://www.yimoorua.top/posts/7fd48667.html</loc>
     
     <lastmod>2022-11-18</lastmod>
     
@@ -83,7 +83,16 @@
   </url>
   
   <url>
-    <loc>https://www.yimoorua.top/posts/7fd48667.html</loc>
+    <loc>https://www.yimoorua.top/posts/df58b0a0.html</loc>
+    
+    <lastmod>2022-11-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yimoorua.top/posts/ff72b94.html</loc>
     
     <lastmod>2022-11-18</lastmod>
     
@@ -126,6 +135,13 @@
   </url>
   
   <url>
+    <loc>https://www.yimoorua.top/tags/Java-framework/</loc>
+    <lastmod>2022-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.yimoorua.top/tags/Leetcode/</loc>
     <lastmod>2022-11-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -140,7 +156,7 @@
   </url>
   
   <url>
-    <loc>https://www.yimoorua.top/tags/Java-framework/</loc>
+    <loc>https://www.yimoorua.top/tags/Java-SE/</loc>
     <lastmod>2022-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -150,6 +166,13 @@
   
   <url>
     <loc>https://www.yimoorua.top/categories/Demo/</loc>
+    <lastmod>2022-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yimoorua.top/categories/Java-framework/</loc>
     <lastmod>2022-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -170,7 +193,7 @@
   </url>
   
   <url>
-    <loc>https://www.yimoorua.top/categories/Java-framework/</loc>
+    <loc>https://www.yimoorua.top/categories/Java-SE/</loc>
     <lastmod>2022-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
