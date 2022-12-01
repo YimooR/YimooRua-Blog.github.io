@@ -15,39 +15,39 @@
   }
   
   .icon-prev:before {
-    content:url('/img/page-first.png');
+    content:url('/music/img/page-first.png');
   }
   
   .icon-next:before {
-    content:url('/img/page-last.png');
+    content:url('/music/img/page-last.png');
   }
   
   .icon-play:before {
-     content:url('/img/play-circle-filled.png');
+     content:url('/music/img/play-circle-filled.png');
   }
   
   .icon-pause:before {
-    content:url('/img/pause-circle-filled.png');
+    content:url('/music/img/pause-circle-filled.png');
   }
   
   .icon-random:before {
-    content:url('/img/suijibofang.png');
+    content:url('/music/img/suijibofang.png');
   }
   
   .icon-muted:before {
-    content:url('/img/shengyinjingyin.png');
+    content:url('/music/img/shengyinjingyin.png');
   }
   
   .icon-volume:before {
-    content:url('/img/sound.png');
+    content:url('/music/img/sound.png');
   }
   
   .icon-loop:before {
-    content:url('/img/xunhuan.png');
+    content:url('/music/img/xunhuan.png');
   }
   
   .icon-single:before {
-    content:url('/img/danquxunhuan.png');
+    content:url('/music/img/danquxunhuan.png');
   }
   
   
@@ -119,7 +119,7 @@
     float: left;
     width: 130px;
     height: 130px;
-    background: url(/img/cd.png) no-repeat center;
+    background: url(/music/img/cd.png) no-repeat center;
     background-size: 100%;
     position: relative;
   }
